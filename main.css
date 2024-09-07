@@ -1,0 +1,44 @@
+p {
+    text-indent: 20px;
+}
+
+hr {
+	float: left;
+	width: 100%;
+	border: 0;
+	height: 2px;
+	position: absolute;
+	top: calc(25% - 2px);
+	background: #DDDDDD;
+}
+
+h1{
+	font-size: 30px;
+	color: blueviolet;
+}
+
+.output{
+	color: red;
+}
+
+hr:nth-of-type(2) {top: calc(50% - 2px)}
+hr:nth-of-type(3) {top: calc(75% - 2px)}
+
+.line_vert_1, .line_vert_2, .line_vert_3 {
+	float: left;
+	width: 4px;
+	border: 0;
+	height: 100%;
+	background: #DDDDDD;
+	margin: 0 0 0 calc(25% - 2px);
+}        
+.box {
+	float: left;
+	width: 400px;
+	height: 400px;
+    border: 5;
+	position: absolute;
+	top: calc(50% - 100px);
+	left: calc(50% - 100px);
+	background: #F1F1F1;
+}
